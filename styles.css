@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+.head_paragraph {
+  text-align: center;
+}
+body {
+  background-color: #F0FFFF;
+}
+.page-header {
+  width: 90%;
+  padding: 20px;
+}
+.page-header__item:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.snow {
+  font-size: 50px;
+  font-family: monospace;
+}
